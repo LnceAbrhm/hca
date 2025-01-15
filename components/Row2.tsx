@@ -5,7 +5,7 @@ export default function Row2() {
         <div className="h-[59rem] w-max-screen justify-between block bg-[url('/img/aboutbackground.jpg')] bg-cover bg-center bg-no-repeat ">
           <div className="bg-slate-300/[.35] h-[59rem] backdrop-blur-sm content-center">
             <div className="grid grid-cols-2 text-white">
-                <div className="px-32 py-28 font-bold text-4xl text-center">
+                <div className="px-32 py-28 font-bold text-3xl text-center">
                     <p className="text-Calpolygreen font-black text-6xl mb-16">
                         We Are Here To Help
                     </p>
@@ -20,7 +20,7 @@ export default function Row2() {
                 </div>
                 <div className="px-36 py-14">
                     <div className="bg-Ashgray h-full rounded-[75px] text-center content-center">
-                      <div className="text-5xl ">
+                      <div className="text-4xl ">
                         <p className="text-6xl font-black">
                           Awards
                         </p>

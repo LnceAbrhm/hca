@@ -9,8 +9,8 @@ export default function Row1() {
               <div className="inline-flex text-white">
                 <div className="grid grid-rows-2 gap-4">
 
-                <div className="pl-12 font-black text-7xl">
-                  <p className="leading-tight">
+                <div className="pl-12 pt-4 font-black">
+                  <p className="leading-tight text-6xl">
                     Get promising healthcare aid services in Manitoba.
                   </p>
                 </div>

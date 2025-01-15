@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Row3() {
     return (
       <>
-        <div className="h-[59rem] w-max-screen block">
+        <div className="h-[59rem] w-full block">
           <div className="content-center">
             <div>
               {/* Title */}
@@ -14,9 +14,9 @@ export default function Row3() {
               <div className="grid grid-cols-3 text-white h-[38rem]">
                 {/* Registered Nurse Card */}
                   <div className="">
-                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-4 relative">
+                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-2 relative">
                       {/* picture */}
-                      <div className="bg-Cambridgeblue absolute py-[219px] px-[270px] start-[33px] top-10 rounded-[60px]">
+                      <div className="bg-Cambridgeblue absolute py-[219px] px-[270px] start-[10px] top-10 rounded-[60px]">
                         <div className="absolute start-[33px] top-[33px]">
                            <Image
                             src="/img/RN.jpg"
@@ -34,9 +34,9 @@ export default function Row3() {
                   </div>
                   {/* Licensed Practical Nurse Card */}
                   <div className="">
-                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-4 relative">
+                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-2 relative">
                       {/* picture */}
-                      <div className="bg-Cambridgeblue absolute py-[200px] px-[270px] start-[33px] top-10 rounded-[60px]">
+                      <div className="bg-Cambridgeblue absolute py-[200px] px-[270px] start-[10px] top-10 rounded-[60px]">
                         <div className="absolute start-[33px] top-[65px]">
                            <Image
                             src="/img/LPN.jpg"
@@ -54,9 +54,9 @@ export default function Row3() {
                   </div>
                   {/* Healthcare Aides Card */}
                   <div className="">
-                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-4 relative">
+                    <div className="bg-Ashgray rounded-[75px] py-[295px] mx-2 relative">
                       {/* picture */}
-                      <div className="bg-Cambridgeblue absolute py-[219px] px-[270px] start-[33px] top-10 rounded-[60px]">
+                      <div className="bg-Cambridgeblue absolute py-[219px] px-[270px] start-[10px] top-10 rounded-[60px]">
                         <div className="absolute start-[33px] top-[54px]">
                            <Image
                             src="/img/HCA.jpg"
