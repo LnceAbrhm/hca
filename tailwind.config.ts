@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'Cambridgeblue' : '#94AE89',
+        'Ashgray' : '#A8BCA1',
+        'Mindaro' : '#C0DA74',
+        'Teagreen' : '#BEEDAA',
+        'Honeydew' : '#EBFFED',
+        'Calpolygreen' : '#2A4D14',
       },
     },
   },
